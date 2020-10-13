@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>FY2020 城西大学の講義</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<div>
+<h1>教育実習I, 教育実習II</h1>
+<h3>講義内容・方法</h3>
+<p><a href="https://ja.overleaf.com/read/hbqsszgvgych" target="_blank">
+   FY2020 城西大学教育実習</a>
+         のPDFを読んでください</p>
+<h3>LMS<sup id="ref_1"><a href="#note_1">*1)</a></sup></h3>
+<p>城西大学 Microsoft Office 365 システムの Teams を利用</p>
+  <p>チーム名：教育実習（2020年度）</p>
+  <p>チームコード：jv7ot1e</p>
+</div>
+<div>
+<ol class="note">
+<li id="note_1"><a href="#ref_1">^</a>（Learning Management Systm（学習管理システム）の略語</li>
+</ol>
+</body>
+</html>
