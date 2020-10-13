@@ -88,7 +88,8 @@ display:inline-block;
 font-size:35px;
 text-decoration:none;
 transition:.5s;
-color:#333333;	
+color:#333333;
+data-fa-transform="down-6"
 }
 /* インスタ・pocket・ラインだけ少し大きくしない */
 .flowbtn10 .fa-instagram,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-get-pocket,.flowbtn10 .fa-line{
