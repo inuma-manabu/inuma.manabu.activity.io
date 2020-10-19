@@ -52,6 +52,17 @@ a:hover{
 　text-decoration: underline;
 }
 
+svg{
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+text{
+  stroke: #111111;
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
 h1{
   /*box-sizing: border-box;
   ine-height: 160%;
