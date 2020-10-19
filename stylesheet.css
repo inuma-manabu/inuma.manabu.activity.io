@@ -9,13 +9,10 @@ body {
    letter-spacing: 0.2em;
 }
 header {
-   padding: 20px 4% 10px;
+   box-sizing: border-box;
    position: fixed;
    top: 0;
    width: 100%;
-   background-color: transparent;
-   display: flex;
-   align-items: center;
 }
 
 div#body-bk{
