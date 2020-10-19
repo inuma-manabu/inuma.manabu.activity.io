@@ -52,14 +52,16 @@ a:hover{
 　text-decoration: underline;
 }
 
-h1{
-  text-shadow:1px 1px 0px #111111, -1px -1px 0px #111111,
+h1{text-shadow: 1px 1px 0px black;}
+
+/*h1{
+  text-shadow: 1px 1px 0px #111111, -1px -1px 0px #111111, 
               -1px 1px 0px #111111, 1px -1px 0px #111111,
               0px 1px 0px #111111,  0px -1px 0px #111111,
               -1px 0px 0px #111111, 1px 0px 0px #111111;
   color: #e2ff3d;
   text-align: center;
-}
+}*/
 
 ul{
 	margin: 0;
