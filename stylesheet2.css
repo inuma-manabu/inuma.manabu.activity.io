@@ -51,6 +51,22 @@ a:hover{
   padding-bottom:1px;
 　text-decoration: underline;
 }
+
+h1{
+  box-sizing: border-box;
+  ine-height: 160%;
+  font-size: 160%;
+  color: #e2ff3d;
+  /*-webkit-text-stroke: .2px white;
+  text-stroke: .2px white;*/
+  border: 5px solid #a3a398;
+  background-color: #63635c;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  /*padding: auto;*/
+}
+
 ul{
 	margin: 0;
 	padding: 0;
