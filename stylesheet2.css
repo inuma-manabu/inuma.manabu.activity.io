@@ -53,17 +53,17 @@ a:hover{
 }
 
 h1{
-  box-sizing: border-box;
+  /*box-sizing: border-box;
   ine-height: 160%;
-  font-size: 160%;
+  font-size: 160%;*/
   color: #e2ff3d;
   /*-webkit-text-stroke: .2px white;
   text-stroke: .2px white;*/
-  border: 5px solid #a3a398;
-  background-color: #63635c;
+  /*border: 5px solid #a3a398;
+  background-color: #63635c;*/
   font-weight: 900;
   text-align: center;
-  margin: auto;
+  /*margin: auto;*/
   /*padding: auto;*/
 }
 
