@@ -58,9 +58,27 @@ ol{
 	padding: 0;
 	list-style-type: none;
 }
-address{
-font-style: normal;
+
+.sample{
+   background-color:#d0e6ca;
+   /*font-size:70%;*/
 }
+
+h1{
+  box-sizing: border-box;
+  ine-height: 160%;
+  font-size: 160%;
+  color: #e2ff3d;
+  /*-webkit-text-stroke: .2px white;
+  text-stroke: .2px white;*/
+  border: 5px solid #a3a398;
+  background-color: #63635c;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  /*padding: auto;*/
+}
+
 .sample{
    background-color:#d0e6ca;
    /*font-size:70%;*/
@@ -77,19 +95,19 @@ font-style: normal;
     }
 }
 
-h1{
-  box-sizing: border-box;
-  ine-height: 160%;
-  font-size: 160%;
-  color: #e2ff3d;
-  /*-webkit-text-stroke: .2px white;
-  text-stroke: .2px white;*/
-  border: 5px solid #a3a398;
-  background-color: #63635c;
-  font-weight: 900;
+.center {
   text-align: center;
-  margin: auto;
-  /*padding: auto;*/
+}
+.center * {
+  margin-right: auto;
+  margin-left: auto;
+}
+.mgr-10{
+    margin-right : 10px;
+}
+
+.textdecoration_linethrough{
+    text-decoration: line-through;
 }
 
 
