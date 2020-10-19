@@ -52,21 +52,14 @@ a:hover{
 　text-decoration: underline;
 }
 
-svg{
-  width: 100%;
-  height: auto;
-  overflow: visible;
-}
-text{
-  stroke: #111111;
-  stroke-width: 1;
-  stroke-linejoin: round;
-}
-
 h1{
   /*box-sizing: border-box;
   ine-height: 160%;
   font-size: 160%;*/
+  text-shadow:1px 1px 0 #111111, -1px -1px 0 #111111,
+              -1px 1px 0 #111111, 1px -1px 0 #111111,
+              0px 1px 0 #111111,  0-1px 0 #111111,
+              -1px 0 0 #111111, 1px 0 0 #111111;
   color: #e2ff3d;
   /*-webkit-text-stroke: .2px white;
   text-stroke: .2px white;*/
