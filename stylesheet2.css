@@ -53,7 +53,10 @@ a:hover{
 }
 
 h1{
-  text-shadow: 1px 1px 0px #111111, -1px -1px 0px #111111;
+  text-shadow: 1px 1px 0px #111111, -1px -1px 0px #111111, 
+	      -1px 1px 0 #111111, 1px -1px 0 #111111,
+              0px 1px 0 #111111,  0-1px 0 #111111,
+              -1px 0 0 #111111, 1px 0 0 #111111;
   color: #e2ff3d;
   text-align: center;
 }
