@@ -1,7 +1,6 @@
 import math
 n= int(input('Input odd n: '))
 b= int(input('Input b: '))
-SP=[]
 q=n-1
 L=[]
 while   q%2==0:

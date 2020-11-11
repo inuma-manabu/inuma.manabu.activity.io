@@ -20,7 +20,7 @@ for k in range(s,t):
          #print(i,n,c)
   if c!=n-1:
       SP=SP+[n]
-      print("Miller's seudo numbers are",SP)
+      print("Miller seudoprimes are",SP)
   else:
       P=P+[n]
       print("Prime numbers are",P)
