@@ -3,9 +3,9 @@ def eliminate1(A,p):
   m=A.shape[1]
   print('n,m=',n,m)
   Q=np.zeros(m,dtype=int)
-  s=0
-  nonpivot=[]
+  pivot=[]
   for j in range(m):
+        s=len(pivot)
         #print('j,s=',j,s)
         count=0 #ピボットを見つけるまでの0の個数
         for i in range(s,n):
@@ -25,16 +25,12 @@ def eliminate1(A,p):
                  elif A[i][j]==0:
                      count=int(count+1)
         if count==n-s:
-            #print('nonpivot=',nonpivot)
             for t in range(s):
-                Q[nonpivot[t]]=(Q[nonpivot[t]]-A[t][j])%p
+                Q[pivot[t]]=(Q[pivot[t]]-A[t][j])%p
             Q[j]=1
             #print('Q=',Q)
-            s=s
         else:
-            nonpivot=nonpivot+[j]
-            #print('nonpivot=',nonpivot)
-            s=s+1
+            pivot=pivot+[j]            
   print('AQ=0の解はQ=',Q)
   return Q
             
